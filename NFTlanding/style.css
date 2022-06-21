@@ -10,6 +10,12 @@
   --orange: rgb(212, 100, 35);
 }
 
+@media (max-width: 480px) {
+  .main-box {
+    max-width: 800px;
+  }
+}
+
 body {
   background-color: rgb(240, 240, 238);
   text-align: left;
@@ -281,8 +287,8 @@ footer h5 {
   margin-bottom: 10px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 800px) {
   .main-box {
-    max-width: 800px;
+    max-width: 600px;
   }
 }
