@@ -66,11 +66,8 @@ header i {
 
 .hero {
   display: flex;
-  border: 2px solid green;
   flex-direction: row;
   flex-wrap: wrap;
-  /* flex-shrink: 0; */
-  /* position: relative; */
   padding-bottom: 50px;
   align-content: space-between;
 }
@@ -79,14 +76,9 @@ header i {
   margin-bottom: 20px;
 }
 
-/* .hero_first_item {
-  width: 10%;
-  z-index: 1;
-} */
-
 .hero-img {
   position: relative;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   max-width: 120%;
   height: 100%;
   z-index: 0;
@@ -227,13 +219,6 @@ h4 {
   color: rgb(250, 11, 206);
 }
 
-/* h1,
-h3,
-h4,
-p {
-  margin-left: 32px;
-} */
-
 header li:not(:last-child) {
   margin-right: 15px;
 }
@@ -264,16 +249,13 @@ section {
   width: 300px;
   display: flex;
   flex-wrap: wrap;
-  border: 1px solid rgb(29, 138, 29);
+  /* border: 1px solid rgb(29, 138, 29); */
   justify-content: space-between;
-  /* margin-bottom: 32px; */
   padding-bottom: 20px;
 }
 
 .footer-box {
   display: flex;
-  /* flex: 1 0 20%; */
-  border: 1px solid red;
   justify-content: left;
   align-items: flex-start;
 }
